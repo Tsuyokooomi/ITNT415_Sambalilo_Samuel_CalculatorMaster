@@ -7,6 +7,12 @@ def subtract(x, y):
 def multiply(x, y):
     return round(x*y,6)
 
+def divide(x, y):
+    if y == 0:
+        print("Error: Cannot divide by zero.")
+        return None
+    return round(x/y,6)
+
 def get_number(prompt):
     while True:
         try:
@@ -39,6 +45,13 @@ def main():
             x = get_number("Enter first number: ")
             y = get_number("Enter second number: ")
             print(f"Result: {multiply(x, y)}")
+
+        if choice == "4":
+            x = get_number("Enter first number: ")
+            y = get_number("Enter second number: ")
+            result = divide(x, y)
+            if result is not None:
+                print(f"Result: {result}")
 
         if choice == "5":
             print("Goodbye!")
