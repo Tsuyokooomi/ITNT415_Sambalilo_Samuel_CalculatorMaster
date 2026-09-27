@@ -1,5 +1,5 @@
 def add(x, y):
-    return x + y
+    return round(x+y,6)
 
 def get_number(prompt):
     while True:
