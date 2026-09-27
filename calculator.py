@@ -2,7 +2,7 @@ def add(x, y):
     return round(x+y,6)
 
 def subtract(x, y):
-    return x - y
+    return round(x-y,6)
 
 def get_number(prompt):
     while True:
@@ -26,6 +26,11 @@ def main():
             x = get_number("Enter first number: ")
             y = get_number("Enter second number: ")
             print(f"Result: {add(x, y)}")
+
+        if choice == "2":
+            x = get_number("Enter first number: ")
+            y = get_number("Enter second number: ")
+            print(f"Result: {subtract(x, y)}")
 
         if choice == "5":
             print("Goodbye!")
