@@ -8,7 +8,10 @@ def multiply(x, y):
     return round(x*y,6)
 
 def divide(x, y):
-    return x / y
+    if y == 0:
+        print("Error: Cannot divide by zero.")
+        return None
+    return round(x/y,6)
 
 def get_number(prompt):
     while True:
