@@ -49,6 +49,7 @@ own Git branch and merged into main through a pull request.
 | Merged PR - multiplication | [Merge_Multiplication.png](Screenshots/Merge_Multiplication.png) |
 | Merged PR - division | [Merge_Division.png](Screenshots/Merge_Division.png) |
 | Console Push - Terminal Design | [Console_Design.png](Screenshots/Console_Design.png) |
+| Commit history - Terminal Design | [Commit_Main Design.png](Screenshots/Commit_Design.png) |
 
 ## Program Test Evidence
 
