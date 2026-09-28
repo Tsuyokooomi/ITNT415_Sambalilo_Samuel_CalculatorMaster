@@ -25,16 +25,16 @@ own Git branch and merged into main through a pull request.
 
 ## Sample Run
 
-| Operation | Screenshot |
-|---|---|
-| Addition | ![Addition](Screenshots/Terminal_Addition.png) |
-| Subtraction | ![Subtraction](Screenshots/Terminal_Subtraction.png) |
-| Multiplication | ![Multiplication](Screenshots/Terminal_Multiplication.png) |
-| Division | ![Division](Screenshots/Terminal_Division.png) |
+| Operation | Screenshot | Screenshot w/ Design |
+|---|---|---|
+| Addition | ![Addition](Screenshots/Terminal_Addition.png) | ![AdditionDesign](Screenshots/Terminal_AdditionDesign.png) |
+| Subtraction | ![Subtraction](Screenshots/Terminal_Subtraction.png) | ![SubtractionDesign](Screenshots/Terminal_SubtractionDesign.png) |
+| Multiplication | ![Multiplication](Screenshots/Terminal_Multiplication.png) | ![MultiplicationDesign](Screenshots/Terminal_MultiplicaionDesign.png) |
+| Division | ![Division](Screenshots/Terminal_Division.png) | ![DivisionDesign](Screenshots/Terminal_DivisionDesign.png) |
 
 ## GitHub Evidence
 
-| Evidence | Screenshot |
+| Evidence | Screenshot | 
 |---|---|
 | All branches | [Branches.png](Screenshots/Branches.png) |
 | Repo clone, config, and push (VM console) | [Console_Github.png](Screenshots/Console_Github.png) |
@@ -48,15 +48,16 @@ own Git branch and merged into main through a pull request.
 | Merged PR - subtraction | [Merge_Subtraction.png](Screenshots/Merge_Subtraction.png) |
 | Merged PR - multiplication | [Merge_Multiplication.png](Screenshots/Merge_Multiplication.png) |
 | Merged PR - division | [Merge_Division.png](Screenshots/Merge_Division.png) |
+| Console Push - Terminal Design | [Console_Design.png](Screenshots/Console_Design.png) |
 
 ## Program Test Evidence
 
 | Test Case | Screenshot |
 |---|---|
-| Addition | [Terminal_Addition.png](Screenshots/Terminal_Addition.png), [Console_Addition.png](Screenshots/Console_Addition.png), [Console_Addition2.png](Screenshots/Console_Addition2.png) |
-| Subtraction | [Terminal_Subtraction.png](Screenshots/Terminal_Subtraction.png), [Console_Subtraction.png](Screenshots/Console_Subtraction.png) |
-| Multiplication | [Terminal_Multiplication.png](Screenshots/Terminal_Multiplication.png), [Console_Multiplication.png](Screenshots/Console_Multiplication.png) |
-| Division | [Terminal_Division.png](Screenshots/Terminal_Division.png), [Console_Division.png](Screenshots/Console_Division.png) |
-| Division by zero | [Terminal_ZeroValidation.png](Screenshots/Terminal_ZeroValidation.png) |
-| Invalid menu choice | [Terminal_InputValidation.png](Screenshots/Terminal_InputValidation.png) |
-| Exit | [Terminal_Exit.png](Screenshots/Terminal_Exit.png) |
+| Addition | [Terminal_Addition.png](Screenshots/Terminal_Addition.png), [Terminal_AdditionDesign.png](Screenshots/Terminal_AdditionDesign.png), [Console_Addition.png](Screenshots/Console_Addition.png), [Console_Addition2.png](Screenshots/Console_Addition2.png) |
+| Subtraction | [Terminal_Subtraction.png](Screenshots/Terminal_Subtraction.png), [Terminal_SubtractionDesign.png](Screenshots/Terminal_SubtractionnDesign.png), [Console_Subtraction.png](Screenshots/Console_Subtraction.png) |
+| Multiplication | [Terminal_Multiplication.png](Screenshots/Terminal_Multiplication.png), [Terminal_MultiplicationDesign.png](Screenshots/Terminal_MultiplicaionDesign.png), [Console_Multiplication.png](Screenshots/Console_Multiplication.png) |
+| Division | [Terminal_Division.png](Screenshots/Terminal_Division.png), [Terminal_DivisionDesign.png](Screenshots/Terminal_DivisionDesign.png), [Console_Division.png](Screenshots/Console_Division.png) |
+| Division by zero | [Terminal_ZeroValidation.png](Screenshots/Terminal_ZeroValidation.png), [Terminal_ZeroValidationDesign.png](Screenshots/Terminal_DivisonCheckDesign.png) |
+| Invalid menu choice | [Terminal_InputValidation.png](Screenshots/Terminal_InputValidation.png), [Terminal_InputValidationDesign.png](Screenshots/Terminal_InputInvalidationDesign.png) |
+| Exit | [Terminal_Exit.png](Screenshots/Terminal_Exit.png), [Terminal_ExitDesign.png](Screenshots/Terminal_ExitDesign.png) |
